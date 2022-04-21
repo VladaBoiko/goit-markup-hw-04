@@ -172,6 +172,8 @@ img{
     margin-right: auto;
     margin-left: auto;
     background-position: center;
+    max-width: 1600px;
+    height: 600px;
     
 }
 
@@ -485,7 +487,7 @@ margin-bottom: 16px;
     display: flex;
     justify-content: center;
     height: 120px;
-  padding: 25px 0;
+  align-items: center;
 background: #F5F4FA;
 border-radius: 4px;
 margin-bottom: 30px;
@@ -496,7 +498,7 @@ margin-bottom: 30px;
 .our-team-social{
     display: flex;
     justify-content: center;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 .our-team-social-link{
     display: flex;
@@ -566,6 +568,7 @@ margin-bottom: 30px;
 
 .footer-section{
     display: flex;
+    align-items: baseline;
 }
 .footer-navigation{
     display: block;
@@ -573,7 +576,7 @@ margin-bottom: 30px;
 .footer-social{
     display: block;
     margin-left: 70px;
-    padding-top: 12px;
+    
 }
 .footer-social-title{
     margin-bottom: 20px;
